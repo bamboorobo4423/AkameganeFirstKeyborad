@@ -1,0 +1,933 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:promicro
+LIBS:keyboard
+LIBS:keyborad-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 3200 3200 1    60   Input ~ 0
+col0
+Text GLabel 4900 3200 1    60   Input ~ 0
+col2
+Text GLabel 4050 3200 1    60   Input ~ 0
+col1
+Text GLabel 6600 3200 1    60   Input ~ 0
+col4
+Text GLabel 5750 3200 1    60   Input ~ 0
+col3
+Text GLabel 7450 3200 1    60   Input ~ 0
+col5
+$Comp
+L SW_DIP_x01 SW1
+U 1 1 5AFF728B
+P 3500 3350
+F 0 "SW1" H 3500 3500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 3500 3200 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 3500 3350 50  0001 C CNN
+F 3 "" H 3500 3350 50  0001 C CNN
+	1    3500 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3200 3200 4850
+$Comp
+L SW_DIP_x01 SW2
+U 1 1 5AFF7318
+P 3500 3850
+F 0 "SW2" H 3500 4000 50  0000 C CNN
+F 1 "SW_DIP_x01" H 3500 3700 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 3500 3850 50  0001 C CNN
+F 3 "" H 3500 3850 50  0001 C CNN
+	1    3500 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 3350
+$Comp
+L SW_DIP_x01 SW3
+U 1 1 5AFF73D2
+P 3500 4350
+F 0 "SW3" H 3500 4500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 3500 4200 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 3500 4350 50  0001 C CNN
+F 3 "" H 3500 4350 50  0001 C CNN
+	1    3500 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 3850
+$Comp
+L SW_DIP_x01 SW4
+U 1 1 5AFF7493
+P 3500 4850
+F 0 "SW4" H 3500 5000 50  0000 C CNN
+F 1 "SW_DIP_x01" H 3500 4700 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 3500 4850 50  0001 C CNN
+F 3 "" H 3500 4850 50  0001 C CNN
+	1    3500 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 4350
+$Comp
+L SW_DIP_x01 SW5
+U 1 1 5AFF7642
+P 4350 3350
+F 0 "SW5" H 4350 3500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 4350 3200 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 4350 3350 50  0001 C CNN
+F 3 "" H 4350 3350 50  0001 C CNN
+	1    4350 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3200 4050 4850
+$Comp
+L SW_DIP_x01 SW6
+U 1 1 5AFF7649
+P 4350 3850
+F 0 "SW6" H 4350 4000 50  0000 C CNN
+F 1 "SW_DIP_x01" H 4350 3700 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 4350 3850 50  0001 C CNN
+F 3 "" H 4350 3850 50  0001 C CNN
+	1    4350 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4050 3350
+$Comp
+L SW_DIP_x01 SW7
+U 1 1 5AFF7650
+P 4350 4350
+F 0 "SW7" H 4350 4500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 4350 4200 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 4350 4350 50  0001 C CNN
+F 3 "" H 4350 4350 50  0001 C CNN
+	1    4350 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4050 3850
+$Comp
+L SW_DIP_x01 SW8
+U 1 1 5AFF7657
+P 4350 4850
+F 0 "SW8" H 4350 5000 50  0000 C CNN
+F 1 "SW_DIP_x01" H 4350 4700 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 4350 4850 50  0001 C CNN
+F 3 "" H 4350 4850 50  0001 C CNN
+	1    4350 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4050 4350
+$Comp
+L SW_DIP_x01 SW9
+U 1 1 5AFF78B2
+P 5200 3350
+F 0 "SW9" H 5200 3500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5200 3200 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 5200 3350 50  0001 C CNN
+F 3 "" H 5200 3350 50  0001 C CNN
+	1    5200 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3200 4900 4850
+$Comp
+L SW_DIP_x01 SW10
+U 1 1 5AFF78B9
+P 5200 3850
+F 0 "SW10" H 5200 4000 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5200 3700 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 5200 3850 50  0001 C CNN
+F 3 "" H 5200 3850 50  0001 C CNN
+	1    5200 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 3350
+$Comp
+L SW_DIP_x01 SW11
+U 1 1 5AFF78C0
+P 5200 4350
+F 0 "SW11" H 5200 4500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5200 4200 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 5200 4350 50  0001 C CNN
+F 3 "" H 5200 4350 50  0001 C CNN
+	1    5200 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 3850
+$Comp
+L SW_DIP_x01 SW12
+U 1 1 5AFF78C7
+P 5200 4850
+F 0 "SW12" H 5200 5000 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5200 4700 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 5200 4850 50  0001 C CNN
+F 3 "" H 5200 4850 50  0001 C CNN
+	1    5200 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 4350
+$Comp
+L SW_DIP_x01 SW13
+U 1 1 5AFF78CE
+P 6050 3350
+F 0 "SW13" H 6050 3500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6050 3200 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 6050 3350 50  0001 C CNN
+F 3 "" H 6050 3350 50  0001 C CNN
+	1    6050 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3200 5750 4850
+$Comp
+L SW_DIP_x01 SW14
+U 1 1 5AFF78D5
+P 6050 3850
+F 0 "SW14" H 6050 4000 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6050 3700 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 6050 3850 50  0001 C CNN
+F 3 "" H 6050 3850 50  0001 C CNN
+	1    6050 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 3350
+$Comp
+L SW_DIP_x01 SW15
+U 1 1 5AFF78DC
+P 6050 4350
+F 0 "SW15" H 6050 4500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6050 4200 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 6050 4350 50  0001 C CNN
+F 3 "" H 6050 4350 50  0001 C CNN
+	1    6050 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 3850
+$Comp
+L SW_DIP_x01 SW16
+U 1 1 5AFF78E3
+P 6050 4850
+F 0 "SW16" H 6050 5000 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6050 4700 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 6050 4850 50  0001 C CNN
+F 3 "" H 6050 4850 50  0001 C CNN
+	1    6050 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 4350
+$Comp
+L SW_DIP_x01 SW17
+U 1 1 5AFF7EF8
+P 6900 3350
+F 0 "SW17" H 6900 3500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6900 3200 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 6900 3350 50  0001 C CNN
+F 3 "" H 6900 3350 50  0001 C CNN
+	1    6900 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3200 6600 4850
+$Comp
+L SW_DIP_x01 SW18
+U 1 1 5AFF7EFF
+P 6900 3850
+F 0 "SW18" H 6900 4000 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6900 3700 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 6900 3850 50  0001 C CNN
+F 3 "" H 6900 3850 50  0001 C CNN
+	1    6900 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 3350
+$Comp
+L SW_DIP_x01 SW19
+U 1 1 5AFF7F06
+P 6900 4350
+F 0 "SW19" H 6900 4500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6900 4200 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 6900 4350 50  0001 C CNN
+F 3 "" H 6900 4350 50  0001 C CNN
+	1    6900 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 3850
+$Comp
+L SW_DIP_x01 SW20
+U 1 1 5AFF7F0D
+P 6900 4850
+F 0 "SW20" H 6900 5000 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6900 4700 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 6900 4850 50  0001 C CNN
+F 3 "" H 6900 4850 50  0001 C CNN
+	1    6900 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 4350
+$Comp
+L SW_DIP_x01 SW21
+U 1 1 5AFF7F14
+P 7750 3350
+F 0 "SW21" H 7750 3500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 7750 3200 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 7750 3350 50  0001 C CNN
+F 3 "" H 7750 3350 50  0001 C CNN
+	1    7750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3200 7450 4850
+$Comp
+L SW_DIP_x01 SW22
+U 1 1 5AFF7F1B
+P 7750 3850
+F 0 "SW22" H 7750 4000 50  0000 C CNN
+F 1 "SW_DIP_x01" H 7750 3700 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 7750 3850 50  0001 C CNN
+F 3 "" H 7750 3850 50  0001 C CNN
+	1    7750 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7450 3350
+$Comp
+L SW_DIP_x01 SW23
+U 1 1 5AFF7F22
+P 7750 4350
+F 0 "SW23" H 7750 4500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 7750 4200 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 7750 4350 50  0001 C CNN
+F 3 "" H 7750 4350 50  0001 C CNN
+	1    7750 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7450 3850
+$Comp
+L SW_DIP_x01 SW24
+U 1 1 5AFF7F29
+P 7750 4850
+F 0 "SW24" H 7750 5000 50  0000 C CNN
+F 1 "SW_DIP_x01" H 7750 4700 50  0000 C CNN
+F 2 "keyboard:Kailh-PG1350-1u-reversible" H 7750 4850 50  0001 C CNN
+F 3 "" H 7750 4850 50  0001 C CNN
+	1    7750 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7450 4350
+$Comp
+L D D1
+U 1 1 5AFF8A98
+P 3800 3600
+F 0 "D1" H 3800 3700 50  0000 C CNN
+F 1 "D" H 3800 3500 50  0000 C CNN
+F 2 "keyboard:Diode" H 3800 3600 50  0001 C CNN
+F 3 "" H 3800 3600 50  0001 C CNN
+	1    3800 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D2
+U 1 1 5AFF8CFF
+P 3800 4100
+F 0 "D2" H 3800 4200 50  0000 C CNN
+F 1 "D" H 3800 4000 50  0000 C CNN
+F 2 "keyboard:Diode" H 3800 4100 50  0001 C CNN
+F 3 "" H 3800 4100 50  0001 C CNN
+	1    3800 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D3
+U 1 1 5AFF8EB9
+P 3800 4600
+F 0 "D3" H 3800 4700 50  0000 C CNN
+F 1 "D" H 3800 4500 50  0000 C CNN
+F 2 "keyboard:Diode" H 3800 4600 50  0001 C CNN
+F 3 "" H 3800 4600 50  0001 C CNN
+	1    3800 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D4
+U 1 1 5AFF90DE
+P 3800 5100
+F 0 "D4" H 3800 5200 50  0000 C CNN
+F 1 "D" H 3800 5000 50  0000 C CNN
+F 2 "keyboard:Diode" H 3800 5100 50  0001 C CNN
+F 3 "" H 3800 5100 50  0001 C CNN
+	1    3800 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D5
+U 1 1 5AFFA3A6
+P 4650 3600
+F 0 "D5" H 4650 3700 50  0000 C CNN
+F 1 "D" H 4650 3500 50  0000 C CNN
+F 2 "keyboard:Diode" H 4650 3600 50  0001 C CNN
+F 3 "" H 4650 3600 50  0001 C CNN
+	1    4650 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D6
+U 1 1 5AFFA3AC
+P 4650 4100
+F 0 "D6" H 4650 4200 50  0000 C CNN
+F 1 "D" H 4650 4000 50  0000 C CNN
+F 2 "keyboard:Diode" H 4650 4100 50  0001 C CNN
+F 3 "" H 4650 4100 50  0001 C CNN
+	1    4650 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D7
+U 1 1 5AFFA3B2
+P 4650 4600
+F 0 "D7" H 4650 4700 50  0000 C CNN
+F 1 "D" H 4650 4500 50  0000 C CNN
+F 2 "keyboard:Diode" H 4650 4600 50  0001 C CNN
+F 3 "" H 4650 4600 50  0001 C CNN
+	1    4650 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D8
+U 1 1 5AFFA3B8
+P 4650 5100
+F 0 "D8" H 4650 5200 50  0000 C CNN
+F 1 "D" H 4650 5000 50  0000 C CNN
+F 2 "keyboard:Diode" H 4650 5100 50  0001 C CNN
+F 3 "" H 4650 5100 50  0001 C CNN
+	1    4650 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D9
+U 1 1 5AFFAD2E
+P 5500 3600
+F 0 "D9" H 5500 3700 50  0000 C CNN
+F 1 "D" H 5500 3500 50  0000 C CNN
+F 2 "keyboard:Diode" H 5500 3600 50  0001 C CNN
+F 3 "" H 5500 3600 50  0001 C CNN
+	1    5500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D10
+U 1 1 5AFFAD34
+P 5500 4100
+F 0 "D10" H 5500 4200 50  0000 C CNN
+F 1 "D" H 5500 4000 50  0000 C CNN
+F 2 "keyboard:Diode" H 5500 4100 50  0001 C CNN
+F 3 "" H 5500 4100 50  0001 C CNN
+	1    5500 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D11
+U 1 1 5AFFAD3A
+P 5500 4600
+F 0 "D11" H 5500 4700 50  0000 C CNN
+F 1 "D" H 5500 4500 50  0000 C CNN
+F 2 "keyboard:Diode" H 5500 4600 50  0001 C CNN
+F 3 "" H 5500 4600 50  0001 C CNN
+	1    5500 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D12
+U 1 1 5AFFAD40
+P 5500 5100
+F 0 "D12" H 5500 5200 50  0000 C CNN
+F 1 "D" H 5500 5000 50  0000 C CNN
+F 2 "keyboard:Diode" H 5500 5100 50  0001 C CNN
+F 3 "" H 5500 5100 50  0001 C CNN
+	1    5500 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D13
+U 1 1 5AFFAF52
+P 6350 3600
+F 0 "D13" H 6350 3700 50  0000 C CNN
+F 1 "D" H 6350 3500 50  0000 C CNN
+F 2 "keyboard:Diode" H 6350 3600 50  0001 C CNN
+F 3 "" H 6350 3600 50  0001 C CNN
+	1    6350 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D14
+U 1 1 5AFFAF58
+P 6350 4100
+F 0 "D14" H 6350 4200 50  0000 C CNN
+F 1 "D" H 6350 4000 50  0000 C CNN
+F 2 "keyboard:Diode" H 6350 4100 50  0001 C CNN
+F 3 "" H 6350 4100 50  0001 C CNN
+	1    6350 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D15
+U 1 1 5AFFAF5E
+P 6350 4600
+F 0 "D15" H 6350 4700 50  0000 C CNN
+F 1 "D" H 6350 4500 50  0000 C CNN
+F 2 "keyboard:Diode" H 6350 4600 50  0001 C CNN
+F 3 "" H 6350 4600 50  0001 C CNN
+	1    6350 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D16
+U 1 1 5AFFAF64
+P 6350 5100
+F 0 "D16" H 6350 5200 50  0000 C CNN
+F 1 "D" H 6350 5000 50  0000 C CNN
+F 2 "keyboard:Diode" H 6350 5100 50  0001 C CNN
+F 3 "" H 6350 5100 50  0001 C CNN
+	1    6350 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D17
+U 1 1 5AFFB3C6
+P 7200 3600
+F 0 "D17" H 7200 3700 50  0000 C CNN
+F 1 "D" H 7200 3500 50  0000 C CNN
+F 2 "keyboard:Diode" H 7200 3600 50  0001 C CNN
+F 3 "" H 7200 3600 50  0001 C CNN
+	1    7200 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D18
+U 1 1 5AFFB3CC
+P 7200 4100
+F 0 "D18" H 7200 4200 50  0000 C CNN
+F 1 "D" H 7200 4000 50  0000 C CNN
+F 2 "keyboard:Diode" H 7200 4100 50  0001 C CNN
+F 3 "" H 7200 4100 50  0001 C CNN
+	1    7200 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D19
+U 1 1 5AFFB3D2
+P 7200 4600
+F 0 "D19" H 7200 4700 50  0000 C CNN
+F 1 "D" H 7200 4500 50  0000 C CNN
+F 2 "keyboard:Diode" H 7200 4600 50  0001 C CNN
+F 3 "" H 7200 4600 50  0001 C CNN
+	1    7200 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D20
+U 1 1 5AFFB3D8
+P 7200 5100
+F 0 "D20" H 7200 5200 50  0000 C CNN
+F 1 "D" H 7200 5000 50  0000 C CNN
+F 2 "keyboard:Diode" H 7200 5100 50  0001 C CNN
+F 3 "" H 7200 5100 50  0001 C CNN
+	1    7200 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D21
+U 1 1 5AFFBB2A
+P 8050 3600
+F 0 "D21" H 8050 3700 50  0000 C CNN
+F 1 "D" H 8050 3500 50  0000 C CNN
+F 2 "keyboard:Diode" H 8050 3600 50  0001 C CNN
+F 3 "" H 8050 3600 50  0001 C CNN
+	1    8050 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D22
+U 1 1 5AFFBB30
+P 8050 4100
+F 0 "D22" H 8050 4200 50  0000 C CNN
+F 1 "D" H 8050 4000 50  0000 C CNN
+F 2 "keyboard:Diode" H 8050 4100 50  0001 C CNN
+F 3 "" H 8050 4100 50  0001 C CNN
+	1    8050 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D23
+U 1 1 5AFFBB36
+P 8050 4600
+F 0 "D23" H 8050 4700 50  0000 C CNN
+F 1 "D" H 8050 4500 50  0000 C CNN
+F 2 "keyboard:Diode" H 8050 4600 50  0001 C CNN
+F 3 "" H 8050 4600 50  0001 C CNN
+	1    8050 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D24
+U 1 1 5AFFBB3C
+P 8050 5100
+F 0 "D24" H 8050 5200 50  0000 C CNN
+F 1 "D" H 8050 5000 50  0000 C CNN
+F 2 "keyboard:Diode" H 8050 5100 50  0001 C CNN
+F 3 "" H 8050 5100 50  0001 C CNN
+	1    8050 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 3350 3800 3450
+Wire Wire Line
+	3800 3750 8450 3750
+Connection ~ 4650 3750
+Connection ~ 5500 3750
+Connection ~ 6350 3750
+Connection ~ 7200 3750
+Connection ~ 8050 3750
+Text GLabel 8450 3750 2    60   Input ~ 0
+row0
+Wire Wire Line
+	3800 4250 8450 4250
+Connection ~ 4650 4250
+Connection ~ 5500 4250
+Connection ~ 6350 4250
+Connection ~ 7200 4250
+Text GLabel 8450 4250 2    60   Input ~ 0
+row1
+Connection ~ 8050 4250
+Wire Wire Line
+	3800 4750 8450 4750
+Connection ~ 4650 4750
+Connection ~ 5500 4750
+Connection ~ 6350 4750
+Connection ~ 7200 4750
+Text GLabel 8450 4750 2    60   Input ~ 0
+row2
+Connection ~ 8050 4750
+Wire Wire Line
+	3800 5250 8450 5250
+Connection ~ 4650 5250
+Connection ~ 5500 5250
+Connection ~ 6350 5250
+Connection ~ 7200 5250
+Text GLabel 8450 5250 2    60   Input ~ 0
+row3
+Connection ~ 8050 5250
+Wire Wire Line
+	3800 3850 3800 3950
+Wire Wire Line
+	3800 4350 3800 4450
+Wire Wire Line
+	3800 4850 3800 4950
+Wire Wire Line
+	4650 4850 4650 4950
+Wire Wire Line
+	4650 4350 4650 4450
+Wire Wire Line
+	4650 3850 4650 3950
+Wire Wire Line
+	4650 3350 4650 3450
+Wire Wire Line
+	5500 3350 5500 3450
+Wire Wire Line
+	5500 3850 5500 3950
+Wire Wire Line
+	5500 4350 5500 4450
+Wire Wire Line
+	5500 4850 5500 4950
+Wire Wire Line
+	6350 4850 6350 4950
+Wire Wire Line
+	6350 4350 6350 4450
+Wire Wire Line
+	6350 3950 6350 3850
+Wire Wire Line
+	6350 3350 6350 3450
+Wire Wire Line
+	7200 3450 7200 3350
+Wire Wire Line
+	7200 3850 7200 3950
+Wire Wire Line
+	7200 4350 7200 4450
+Wire Wire Line
+	7200 4850 7200 4950
+Wire Wire Line
+	8050 4950 8050 4850
+Wire Wire Line
+	8050 4350 8050 4450
+Wire Wire Line
+	8050 3850 8050 3950
+Wire Wire Line
+	8050 3450 8050 3350
+$Comp
+L ProMicro U1
+U 1 1 5B004F1F
+P 1850 4200
+F 0 "U1" H 1850 5150 60  0000 C CNN
+F 1 "ProMicro" H 1850 3650 60  0000 C CNN
+F 2 "pro micro:ProMicro" H 1950 3150 60  0001 C CNN
+F 3 "" H 1950 3150 60  0000 C CNN
+	1    1850 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1100 3950 0    60   Input ~ 0
+data
+Wire Wire Line
+	1100 3950 1150 3950
+Wire Wire Line
+	1150 3650 1150 3750
+Text GLabel 1100 3700 0    60   Input ~ 0
+GND
+Wire Wire Line
+	1100 3700 1150 3700
+Connection ~ 1150 3700
+Text GLabel 2600 3550 2    60   Input ~ 0
+GND
+Wire Wire Line
+	2550 3550 2600 3550
+Text GLabel 2600 3750 2    60   Input ~ 0
+VCC
+Wire Wire Line
+	2550 3750 2600 3750
+Text GLabel 2600 4050 2    60   Input ~ 0
+col0
+Text GLabel 2600 4250 2    60   Input ~ 0
+col2
+Text GLabel 2600 4150 2    60   Input ~ 0
+col1
+Text GLabel 2600 4450 2    60   Input ~ 0
+col4
+Text GLabel 2600 4350 2    60   Input ~ 0
+col3
+Text GLabel 2600 4550 2    60   Input ~ 0
+col5
+Wire Wire Line
+	2550 4050 2600 4050
+Wire Wire Line
+	2550 4150 2600 4150
+Wire Wire Line
+	2550 4250 2600 4250
+Wire Wire Line
+	2550 4350 2600 4350
+Wire Wire Line
+	2550 4450 2600 4450
+Wire Wire Line
+	2550 4550 2600 4550
+Text GLabel 1100 4250 0    60   Input ~ 0
+row0
+Text GLabel 1100 4350 0    60   Input ~ 0
+row1
+Text GLabel 1100 4450 0    60   Input ~ 0
+row2
+Text GLabel 1100 4550 0    60   Input ~ 0
+row3
+Wire Wire Line
+	1100 4250 1150 4250
+Wire Wire Line
+	1150 4350 1100 4350
+Wire Wire Line
+	1100 4450 1150 4450
+Wire Wire Line
+	1150 4550 1100 4550
+$Comp
+L 3pin J1
+U 1 1 5B00CB4E
+P 5550 2350
+F 0 "J1" V 5350 2200 60  0000 C CNN
+F 1 "3pin" V 5750 2250 60  0000 C CNN
+F 2 "keyboard:3_Pin_Jumper" H 5550 2350 60  0001 C CNN
+F 3 "" H 5550 2350 60  0001 C CNN
+	1    5550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3pin J3
+U 1 1 5B00D635
+P 7050 2350
+F 0 "J3" V 6850 2200 60  0000 C CNN
+F 1 "3pin" V 7250 2250 60  0000 C CNN
+F 2 "keyboard:3_Pin_Jumper" H 7050 2350 60  0001 C CNN
+F 3 "" H 7050 2350 60  0001 C CNN
+	1    7050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6pin J2
+U 1 1 5B00D6FA
+P 6350 2500
+F 0 "J2" V 6000 2500 60  0000 C CNN
+F 1 "6pin" V 6700 2500 60  0000 C CNN
+F 2 "keyboard:4pin35mmAudio" H 6300 2600 60  0001 C CNN
+F 3 "" H 6300 2600 60  0001 C CNN
+	1    6350 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 2300 1    60   Input ~ 0
+VCC
+Text GLabel 7150 2300 1    60   Input ~ 0
+VCC
+Wire Wire Line
+	7150 2300 7150 2350
+Wire Wire Line
+	5650 2350 5650 2300
+Text GLabel 5450 2300 1    60   Input ~ 0
+GND
+Text GLabel 6950 2300 1    60   Input ~ 0
+GND
+Wire Wire Line
+	6950 2300 6950 2350
+Wire Wire Line
+	5450 2350 5450 2300
+Wire Wire Line
+	5550 2350 5550 2000
+Wire Wire Line
+	5550 2000 6100 2000
+Wire Wire Line
+	6100 2000 6100 2400
+Wire Wire Line
+	7050 2000 7050 2350
+Wire Wire Line
+	6400 2400 6400 2000
+Wire Wire Line
+	6400 2000 7050 2000
+Wire Wire Line
+	6600 2400 6600 2150
+Wire Wire Line
+	6600 2150 6200 2150
+Wire Wire Line
+	6200 1850 6200 2400
+Text GLabel 6200 1850 1    60   Input ~ 0
+data
+Connection ~ 6200 2150
+$Comp
+L hole H2
+U 1 1 5B0AADBE
+P 3100 5800
+F 0 "H2" H 3250 5700 60  0000 C CNN
+F 1 "hole" H 3100 5900 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 3100 5800 60  0001 C CNN
+F 3 "" H 3100 5800 60  0001 C CNN
+	1    3100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hole H3
+U 1 1 5B0AAFBC
+P 3550 5850
+F 0 "H3" H 3700 5750 60  0000 C CNN
+F 1 "hole" H 3550 5950 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 3550 5850 60  0001 C CNN
+F 3 "" H 3550 5850 60  0001 C CNN
+	1    3550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L hole H5
+U 1 1 5B0AB0CC
+P 4300 5850
+F 0 "H5" H 4450 5750 60  0000 C CNN
+F 1 "hole" H 4300 5950 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 4300 5850 60  0001 C CNN
+F 3 "" H 4300 5850 60  0001 C CNN
+	1    4300 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L hole H8
+U 1 1 5B0AB1BD
+P 5050 5900
+F 0 "H8" H 5200 5800 60  0000 C CNN
+F 1 "hole" H 5050 6000 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 5050 5900 60  0001 C CNN
+F 3 "" H 5050 5900 60  0001 C CNN
+	1    5050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hole H1
+U 1 1 5B0AB29F
+P 3000 6250
+F 0 "H1" H 3150 6150 60  0000 C CNN
+F 1 "hole" H 3000 6350 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 3000 6250 60  0001 C CNN
+F 3 "" H 3000 6250 60  0001 C CNN
+	1    3000 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L hole H4
+U 1 1 5B0AB3BC
+P 3550 6400
+F 0 "H4" H 3700 6300 60  0000 C CNN
+F 1 "hole" H 3550 6500 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 3550 6400 60  0001 C CNN
+F 3 "" H 3550 6400 60  0001 C CNN
+	1    3550 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hole H6
+U 1 1 5B0AB48C
+P 4350 6400
+F 0 "H6" H 4500 6300 60  0000 C CNN
+F 1 "hole" H 4350 6500 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 4350 6400 60  0001 C CNN
+F 3 "" H 4350 6400 60  0001 C CNN
+	1    4350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hole H7
+U 1 1 5B0AB563
+P 4950 6400
+F 0 "H7" H 5100 6300 60  0000 C CNN
+F 1 "hole" H 4950 6500 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 4950 6400 60  0001 C CNN
+F 3 "" H 4950 6400 60  0001 C CNN
+	1    4950 6400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
